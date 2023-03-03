@@ -15,7 +15,7 @@ export default function Movie(params) {
 
     return (
         <div>
-            <div className="m-10">
+            <div className="m-10 z-0">
                 <div className=" mb-10">
                     <h1 className="text-4xl pl-5">Here your favourite movies</h1>
                 </div>

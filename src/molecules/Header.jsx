@@ -1,9 +1,9 @@
 import Search from "./Search";
 
 const Header = () => {
-    const listMenuItem = ["Beranda", <Search className='text-right'/>]
+    const listMenuItem = [<Search className='text-right'/> ]
     return (
-      <nav className='sticky top-0 bg-orange-500 h-[5rem] flex justify-between items-center'>
+      <nav className='sticky top-0 bg-orange-400 h-[5rem] flex justify-between items-center'>
         <h1 className='text-xl text-cyan-50 font-bold text-left'>Final Project Hacktiv8</h1>
         <ul className='flex gap-[3rem] font-medium'>
           {

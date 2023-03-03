@@ -21,8 +21,8 @@ export default function Search() {
         <div className='w-full mx-20 my-6'>
             <input className='inline-flex' type='text' placeholder='Search your movies here' onChange={handleChange} />
             <div className=' w-10/11 inline-flex'>
-                <button className=' bg-red-600 w-full text-white 
-                 hover:bg-red-900' onClick={handleSearch}>Search</button>
+                <button className=' bg-neutral-600 w-full text-slate-100 
+                 hover:bg-orange-800' onClick={handleSearch}>Search</button>
             </div>
         </div>
     )

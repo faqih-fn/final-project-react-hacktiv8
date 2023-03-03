@@ -17,7 +17,7 @@ export default function Movie(params) {
         <div>
             <div className="m-10">
                 <div className=" mb-10">
-                    <h1 className="text-4xl pl-5">Show your favourite movies</h1>
+                    <h1 className="text-4xl pl-5">Here your favourite movies</h1>
                 </div>
                 <div className="flex">
                     <div className="grid grid-cols-4 gap-x-3 gap-y-40">

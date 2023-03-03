@@ -19,10 +19,11 @@ export default function Search() {
 
     return (
         <div className='w-full mx-20 my-6'>
-            <input className='inline-flex' type='text' placeholder='Search your movies here' onChange={handleChange} />
+            <input className='inline-flex rounded p-1.5' type='text' placeholder=' Search your movies here ' onChange={handleChange} />
+            
             <div className=' w-10/11 inline-flex'>
                 <button className=' bg-neutral-600 w-full text-slate-100 
-                 hover:bg-orange-800' onClick={handleSearch}>Search</button>
+                 hover:bg-red-600 rounded p-0.5' onClick={handleSearch}> Search </button>
             </div>
         </div>
     )
